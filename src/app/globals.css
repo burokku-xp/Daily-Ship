@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-base: #ffffff;
+  --color-primary: #f97316;
+  --color-text: #1f2937;
+  --color-sub-text: #6b7280;
+  --color-border: #e5e7eb;
+}
+
+body {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: var(--color-text);
+  background-color: var(--color-base);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  color: var(--color-text);
+}
