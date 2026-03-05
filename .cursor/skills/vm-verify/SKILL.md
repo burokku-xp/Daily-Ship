@@ -1,4 +1,9 @@
-# VM検証スキル（vm-verify.md）
+---
+name: vm-verify
+description: VM上での動作検証。デプロイ→動作確認→スクリーンショット・動画取得。成果物はdocs/verification/に{日付}_{機能名}_{種別}形式で保存する。
+---
+
+# VM検証スキル
 
 このスキルは、VM上での動作検証の手順を定義します。
 

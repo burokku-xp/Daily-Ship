@@ -1,4 +1,9 @@
-# Notion報告スキル（notion-report.md）
+---
+name: notion-report
+description: notionMCPを使って結果報告DBにテスト結果・VM検証結果を追加。報告タイトル・種別・ステータス・報告日を設定し、該当設計DBにもページを作成する。
+---
+
+# Notion報告スキル
 
 このスキルは、notionMCPを使用した結果報告の手順を定義します。
 
