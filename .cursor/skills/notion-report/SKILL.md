@@ -16,6 +16,7 @@ description: notionMCPを使って結果報告DBにテスト結果・VM検証結
 - テスト結果（成功/失敗、カバレッジ）
 - VM検証結果（スクリーンショットへのリンク、動画へのリンク）
 - 改修箇所情報（変更したファイル・モジュールの一覧）
+- PR URL（該当するPRのURL）
 
 ## 処理
 
@@ -26,6 +27,7 @@ description: notionMCPを使って結果報告DBにテスト結果・VM検証結
    - 種別: 「テスト結果」
    - ステータス: 「レビュー中」
    - 報告日: 当日の日付
+   - PR URL: 該当するPRのURL
    - ページ本文:
      - 実装内容のサマリ
      - テスト結果（成功/失敗、カバレッジ）
@@ -70,6 +72,7 @@ parent: {"type": "database_id", "database_id": "a0a859b6-af41-4d8e-95c5-7b037390
 - `種別`: 「テスト結果」「レビュー結果」「リリース報告」「その他」のいずれか
 - `date:報告日:start`: 日付（YYYY-MM-DD形式）
 - `date:報告日:is_datetime`: 0（日付のみの場合）
+- `PR URL`: 該当するPRのURL（例: https://github.com/org/repo/pull/1）
 
 ### 注意事項
 - `parent` は**JSONオブジェクト**として渡す（文字列化しない）
